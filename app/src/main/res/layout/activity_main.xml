@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Time Table"
+            />
+
+        <TableLayout
+            android:id="@+id/table_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/row_header"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView android:text="Time"
+                    android:background="@drawable/border"/>
+                <TextView android:text="Mon"
+                    android:background="@drawable/border"/>
+                <TextView android:text="Tue"
+                    android:background="@drawable/border"/>
+                <TextView android:text="Wed"
+                    android:background="@drawable/border"/>
+
+
+        </TableRow>
+
+            <TableRow
+                android:id="@+id/row_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView android:text="9:00"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/m_9"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/t_9"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/w_9"
+                    android:background="@drawable/border"/>
+
+
+        </TableRow>
+
+            <TableRow
+                android:id="@+id/row_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView android:text="10:00"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/m_10"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/t_10"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/w_10"
+                    android:background="@drawable/border"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+                <TextView android:text="11:00"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/m_11"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/t_ll"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/w_11"
+                    android:background="@drawable/border"/>
+
+
+        </TableRow>
+
+            <TableRow
+                android:id="@+id/row_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView android:text="12:00"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/m_12"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/t_12"
+                    android:background="@drawable/border"/>
+                <TextView android:id="@+id/w_12"
+                    android:background="@drawable/border"/>
+
+
+        </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
